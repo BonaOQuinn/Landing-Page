@@ -1,0 +1,24 @@
+/*styles.css */
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #1f2937;
+
+}
+
+.head-logo {
+    color: rgb(243, 241, 241);
+    font-family: 'roboto';
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: rgb(223, 221, 221);
+    text-decoration: none;
+}
