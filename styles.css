@@ -71,18 +71,19 @@ a {
 
 button {
     background-color: #3882f6;
+    outline-style: none;
     color: white;
     width: 100px;
     height: 35px;
     border-radius: 6px;
 }
 
-
+/*SECTION 2: */
 
 .random-info {
     display: flex;
     justify-content: center;
-    padding: 30px;
+    padding: 40px;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -92,6 +93,7 @@ button {
     display: flex;
     gap: 35px;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .box {
@@ -119,18 +121,81 @@ button {
 .section-three {
     background-color: #E5E7EB;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 275px;
+    margin: auto;
 }
 
 .testi {
     font-size: 24px;
     color: #1F2937;
     display: flex;
+    flex-wrap: wrap;
     text-align: left; /*very crucial for flex-items. */
     align-items: center;
     width: 500px;
+}
+
+.sig {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: self-end;
+    margin-right: 400px;
+}
+
+
+.section-four {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-section {
+    width: 700px;
+    height: 50px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 25px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.cta-text{
+    font-family: 'roboto';
+    text-align: left;
+    padding-right: 80px;
+}
+
+.cta {
+    font-weight: bold;
+}
+
+.cta-subtext {
+    font-size: 12px;
+}
+
+.cta-button {
+    outline-style: solid;
+    outline-color: solid white;
+    border-radius: 6px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    font-family: 'roboto';
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
 }
 
 
