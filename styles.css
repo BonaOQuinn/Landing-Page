@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 
@@ -74,6 +75,62 @@ button {
     width: 100px;
     height: 35px;
     border-radius: 6px;
+}
+
+
+
+.random-info {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.boxes {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.box {
+    width: 115px;
+    height: 115px;
+    border-radius: 6px;
+    outline: solid #3882f6;
+}
+
+.box-1 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.subtext-info {
+    font-size: 13px;
+    font-family: 'roboto';    
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 275px;
+}
+
+.testi {
+    font-size: 24px;
+    color: #1F2937;
+    display: flex;
+    text-align: left; /*very crucial for flex-items. */
+    align-items: center;
+    width: 500px;
 }
 
 
